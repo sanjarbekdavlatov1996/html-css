@@ -1,0 +1,206 @@
+body,
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  /*background-color: #35424a;*/
+  background-image: url(/images/32.gif);
+  border-bottom: 5px solid coral;
+}
+
+#header h1 {
+  color: white;
+  font-family: sans-serif;
+  padding: 15px 0;
+  display: inline-block;
+}
+#header .logo {
+  color: coral;
+}
+#header .logo a {
+  color: coral;
+  text-decoration: none; /*bu <a href="#" ishlatilganda qo'laniladi>*/
+}
+.navbar {
+  float: right;
+}
+.navbar li {
+  display: inline;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  padding: 25px 15px;
+  display: inline-block;
+}
+.navbar li a:hover {
+  color: rgb(251, 255, 0);
+  background-color: rgb(19, 89, 129);
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+#banner {
+  height: 100vh;
+  background-image: url(images/1.jpg);
+  background-size: cover;
+  background-position: center -220;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+#banner h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+  padding-top: 150px;
+}
+#banner p {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+#newsletter {
+  background-image: url(/images/30.jpg);
+  color: white;
+  font-family: sans-serif;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  box-shadow: grey 5px 5px 5px 5px;
+}
+#newsletter .left {
+  float: left;
+}
+
+#newsletter .right {
+  float: right;
+}
+#newsletter input {
+  padding: 5px;
+}
+.button {
+  padding: 6px 15px;
+  border: none;
+  background-color: coral;
+  color: #fff;
+  margin-left: 5px;
+}
+#courses {
+  padding: 30px 0;
+}
+.box {
+  width: 32%;
+  float: left;
+  text-align: center;
+  font-family: sans-serif;
+  border: 1px solid red;
+  margin-bottom: 20px;
+  background-color: #e5e5e5;
+  margin-right: 2px;
+}
+.box img {
+  max-width: 100%;
+  width: 120px;
+  box-shadow: grey 1px 1px 1px 1px;
+  border-radius: 150px;
+}
+.box p {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+.react {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.box:hover {
+  cursor: pointer;
+  background-color: darkgoldenrod;
+  color: #e5e5e5;
+}
+.box:hover img {
+  cursor: pointer;
+  background-color: yellow;
+  color: #e5e5e5;
+}
+.clr {
+  clear: both;
+}
+#footer {
+  text-align: center;
+  background-image: url(/images/33.gif);
+  background-position: center;
+  padding: 40px 0;
+  font-size: 25px;
+  color: goldenrod;
+  margin-top: 140px;
+}
+.main-content {
+  width: 65%;
+  float: left;
+}
+.sidebar {
+  width: 30%;
+  float: right;
+}
+#about-us {
+  margin-top: 40px;
+  font-family: sans-serif;
+}
+.bg-dark {
+  background-color: #35424a;
+  color: white;
+  border: 1px solid #fff;
+  padding: 10px 10px;
+  box-shadow: grey 5px 5px 5px 5px;
+}
+body {
+  background-image: url(/images/24.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.about {
+  background-color: #35424a;
+  color: white;
+  border: 1px solid #fff;
+  padding: 10px 10px;
+  box-shadow: grey 5px 5px 5px 5px;
+}
+.services-box {
+  padding: 30px;
+  margin: 15px 0;
+  background-color: #e5e5e5;
+  border: 1px solid grey;
+  box-shadow: grey 2px 2px 2px 2px;
+  font-family: sans-serif;
+}
+.Our {
+  /*background-color: #e5e5e5;
+  border: 1px solid grey;
+  box-shadow: grey 2px 2px 2px 2px;
+  text-align: center;
+  padding: 5px 5px;*/
+  font-family: sans-serif;
+  color: white;
+  font-size: 30px;
+}
+.bg-dark label {
+  /*tag orqali target qilinganda . shartemas tushunmadim lekin bosha bugga uxash yoqligi uchun ekan lekin class berganmaqul*/
+  display: block;
+  margin: 10px 0;
+}
+.bg-dark input {
+  width: 100%;
+  padding: 10px 0;
+}
+.bg-dark textarea {
+  width: 100%;
+  padding: 10px 0;
+}
